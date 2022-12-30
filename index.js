@@ -15,7 +15,7 @@ function compareNumbers() {
 
     else if(attempts < 10){
         if (userNumber == computerNumber){
-            document.getElementById('textOutput').innerHTML = 'Parabens!!!'
+            document.getElementById('textOutput').innerHTML = 'Parabéns!!!'
             document.getElementById('inputBox').setAttribute('Readonly','Readonly')
         }else if (userNumber > computerNumber){
             document.getElementById('textOutput').innerHTML = 'Número muito grande'
